@@ -9,4 +9,5 @@ Seiver.Seed.ExplosiveCsv.kabuum(3_000_000)
 ```
 - ***warning:*** the csv file will be like 200+ MB in size
   - **PLEASE BE CAREFUL**
+    - ***IF YOU ARE RUNNING THIS IN A TOASTER, CONSIDER RUN SOMETHING LIKE 10 ENTRIES***
 

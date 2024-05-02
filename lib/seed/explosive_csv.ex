@@ -14,7 +14,7 @@ defmodule Seiver.Seed.ExplosiveCsv do
         |> CSV.encode(headers: @headers)
         |> Enum.to_list()
 
-      File.write("./explosive.csv", str, [:append])
+      File.write("./explosive.csv", str, [:delayed_write, :append])
 
     end, max_concurrency: System.schedulers_online())
     |> Stream.run()
